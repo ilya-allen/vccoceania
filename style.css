@@ -81,4 +81,25 @@ header {
 
 .main_buttons {
     display: block;
+    width: 200px;
+    height: 75px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    background-color: #1fb3a6;
+    border: none;
+    box-shadow: #105f59 0px 5px;
+    margin-left: 45%;
+    margin-top: 50px;
+}
+
+.main_buttons:hover {
+    transform: translateY(5px);
+    transition: ease-in-out 100ms;
+    box-shadow: none;
+
+}
+
+.button_intro {
+    text-align: center;
+    margin-top: 100px;
 }
