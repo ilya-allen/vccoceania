@@ -41,6 +41,12 @@ h1 {
     color: #080705;
 }
 
+.header_buttons {
+    width: 75px;
+    height: 50px;
+    margin-top: 5px;
+}
+
 .season_winners {
     margin-top: 100px;
     margin-left: 33%;
