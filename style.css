@@ -44,7 +44,21 @@ h1 {
 .header_buttons {
     width: 75px;
     height: 50px;
-    margin-top: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    position: inherit;
+    float: left;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+
+}
+
+.text_button {
+    text-align: center;
+    position: relative;
 }
 
 .season_winners {
@@ -78,6 +92,7 @@ h1 {
 
 .buttons_div {
     float: right;
+    position: relative;
 }
 
 header {
