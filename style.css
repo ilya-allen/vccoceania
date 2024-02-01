@@ -7,6 +7,7 @@
 
 body {
     background-color: #16C172;
+    overflow: hidden;
 }
 
 h1 {
@@ -111,6 +112,12 @@ header {
     box-shadow: #105f59 0px 5px;
     margin-left: 45%;
     margin-top: 50px;
+    cursor: pointer;
+    transition: ease-in-out 800ms;
+}
+
+#social_button {
+    transition: ease-in-out 800ms;
 }
 
 .main_buttons:hover {
@@ -123,4 +130,38 @@ header {
 .button_intro {
     text-align: center;
     margin-top: 100px;
+    transition: ease-in-out 800ms;
 }
+
+.socials_container {
+    width: 40%;
+    height: 250px;
+    background-color: #214f4b91;
+    margin-left: 30%;
+    position: relative;
+}
+
+.social_title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 45, 170);
+    text-align: center;
+}
+
+.socials_logo {
+    margin-left: 25%;
+    width: 50%;
+    height: auto;
+}
+
+.button_text {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+}
+
+.socials {
+    transform: translateY(5000px);
+    transition: ease-in-out 1s;
+}
+
