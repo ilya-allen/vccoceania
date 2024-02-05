@@ -11,11 +11,23 @@ socialButton.addEventListener('click', function() {
     winnersButton.style.transform = 'translateX(1500px)'
     socialButton.style.transform = 'translateX(-1500px)'
     buttonsHeader.style.transform = 'translateX(1500px)'
+    winnersButton.style.transition = 'ease-in-out 800ms'
+    socialButton.style.transition = 'ease-in-out 800ms'
 })
 
 homeButton.addEventListener('click', function() {
-    socialSection.style.transform = 'translateY(1500px)'
-    winnersButton.style.transform = 'translateX(0px)'
-    socialButton.style.transform = 'translateX(0px)'
-    buttonsHeader.style.transform = 'translateX(0px)'
+    socialSection.style.transform = null
+    winnersButton.style.transform = null
+    socialButton.style.transform = null
+    buttonsHeader.style.transform = null
+    socialButton.style.transition = null
+    winnersButton.style.transition = null
+})
+
+socialButton.addEventListener('mouseover', function() {
+    socialButton.style.transition = 'ease-in-out 100ms'
+})
+
+winnersButton.addEventListener('mouseover', function() {
+    winnersButton.style.transition = 'ease-in-out 100ms'
 })
