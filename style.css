@@ -87,6 +87,14 @@ h1 {
     margin-left: 10px;
 }
 
+.home_button {
+    position: relative;
+    height: 200px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
 .header_title {
     display: inline-block;
 }
@@ -121,8 +129,8 @@ header {
 }
 
 .main_buttons:hover {
-    transform: translateY(5px);
-    transition: ease-in-out 100ms;
+    transform: translateY(10px);
+    transition: linear 10ms;
     box-shadow: none;
 
 }
