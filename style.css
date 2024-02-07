@@ -85,11 +85,13 @@ h1 {
 .header_div {
     display: inline;
     margin-left: 10px;
+    width: 100%;
 }
 
 .home_button {
     position: relative;
     height: 200px;
+    width: 200px;
     padding-top: 50px;
     padding-bottom: 10px;
     cursor: pointer;
@@ -171,5 +173,13 @@ header {
 .socials {
     transform: translateY(5000px);
     transition: ease-in-out 1s;
+}
+
+.header_text {
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    color: aliceblue;
+    position: relative;
 }
 
