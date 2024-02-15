@@ -7,7 +7,7 @@
 
 body {
     background-color: #16C172;
-    overflow: hidden;
+    overflow: visible;
 }
 
 h1 {
@@ -183,3 +183,14 @@ header {
     position: relative;
 }
 
+.col_3 {
+    float: left;
+    width: 33.33%;
+    background-color: rgba(0, 255, 255, 0.274);
+}
+
+.logo_winners {
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+}
