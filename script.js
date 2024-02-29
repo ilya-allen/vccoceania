@@ -24,6 +24,15 @@ homeButton.addEventListener('click', function() {
     winnersButton.style.transition = null
 })
 
+winnersButton.addEventListener('click', function() {
+    socialSection.style.transform = 'translateY(-200px)'
+    winnersButton.style.transform = 'translateX(1500px)'
+    socialButton.style.transform = 'translateX(-1500px)'
+    buttonsHeader.style.transform = 'translateX(1500px)'
+    winnersButton.style.transition = 'ease-in-out 800ms'
+    socialButton.style.transition = 'ease-in-out 800ms'
+})
+
 socialButton.addEventListener('mouseover', function() {
     socialButton.style.transition = 'ease-in-out 100ms'
 })

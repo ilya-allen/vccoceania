@@ -186,11 +186,23 @@ header {
 .col_3 {
     float: left;
     width: 33.33%;
-    background-color: rgba(0, 255, 255, 0.274);
+    height: auto;
+    
 }
 
 .logo_winners {
     width: 50%;
     height: auto;
     margin-left: 25%;
+}
+
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.winners_section {
+    transform: translateY(1000px);
 }
