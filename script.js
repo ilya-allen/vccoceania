@@ -5,6 +5,7 @@ const socialSection = document.querySelector('.socials')
 const winnersButton = document.querySelector('#winners_button')
 const buttonsHeader = document.querySelector('.button_intro')
 const homeButton = document.querySelector('.home_button')
+const winnersSection = document.querySelector('.winners_section')
 
 socialButton.addEventListener('click', function() {
     socialSection.style.transform = 'translateY(-200px)'
@@ -25,7 +26,7 @@ homeButton.addEventListener('click', function() {
 })
 
 winnersButton.addEventListener('click', function() {
-    socialSection.style.transform = 'translateY(-200px)'
+    winnersSection.style.transform = 'translateY(-200px)'
     winnersButton.style.transform = 'translateX(1500px)'
     socialButton.style.transform = 'translateX(-1500px)'
     buttonsHeader.style.transform = 'translateX(1500px)'

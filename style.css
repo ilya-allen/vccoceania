@@ -205,4 +205,5 @@ h4 {
 
 .winners_section {
     transform: translateY(1000px);
+    transition: 500ms ease-in-out;
 }
